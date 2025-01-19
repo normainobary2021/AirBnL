@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="font-bold font-rubik text-3xl my-10">Welcome to restate</Text>
+      <Text className="font-bold font-rubik text-3xl my-10">Welcome to AirBnL</Text>
     </View>
   );
 }
