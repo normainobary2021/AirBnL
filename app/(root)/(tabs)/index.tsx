@@ -4,8 +4,8 @@ import Search from "@/components/Search";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
 import { useGlobalContext } from "@/lib/global-provider";
-import { Link } from "expo-router";
-import { FlatList, Image, SafeAreaView, Text, TouchableOpacity, View } from "react-native";
+// import { Link } from "expo-router";
+import { Button, FlatList, Image, SafeAreaView, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
 
@@ -13,7 +13,6 @@ export default function Index() {
   
   return (
     <SafeAreaView className="bg-white h-full">
-      
       <FlatList
         data={[1, 2, 3, 4]}
         renderItem={({item}) => <Card />}
@@ -48,7 +47,7 @@ export default function Index() {
               </View>
 
               <FlatList
-                data={[1,2,3]}
+                data={[5,6,7]}
                 renderItem={({item}) => <FeaturedCard />}
                 keyExtractor={(item) => item.toString()}
                 horizontal
